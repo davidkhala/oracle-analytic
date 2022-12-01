@@ -1,4 +1,6 @@
 # OAS in OCI MarketPlace
+OAS on OCI MarketPlace is for customer who can use public cloud but they want to manage the instance by themselves.
+[PDF: Deploy](https://docs.oracle.com/en/middleware/bi/analytics-server/deploy-oas-cloud/deploying-oracle-analytics-server-oracle-cloud.pdf)
 
 ## Troubleshoot
 Found end lines in `/var/log/oas_create_domain.log`
