@@ -10,6 +10,7 @@ start() {
   /u01/data/domains/bi/bitools/bin/start.sh
 }
 update-config() {
+  sudo su oracle
   vi /u01/data/biconfig.rsp
 }
 cleanup() {
