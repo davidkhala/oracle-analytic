@@ -1,5 +1,6 @@
 set +x
 
+sudo usermod -aG adm oracle
 create-domain() {
   /u01/app/oas-scripts/create_oas_domain.sh
 }
