@@ -13,10 +13,7 @@ configure() {
   $edit $file
 }
 create() {
-  # TODO WIP
-  echo $password | $bin -silent -createRepository -connectString $connectString -dbUser sys -dbRole sysdba \
-   -schemaPrefix ${schemaPrefix:-DEV} -component MDS -component STB\ 
-    $@
+  echo $password | $bin -silent -createRepository -connectString $connectString -dbUser sys -dbRole sysdba -schemaPrefix ${schemaPrefix:-DEV} -useSamePasswordForAllSchemaUsers true -useDBPasswordAsSchemaPassword true -component STB -component IAU_APPEND -component OPSS -component IAU -component BIPLATFORM -component MDS -component IAU_VIEWER -component WLS $@
 }
 help() {
   $bin -h
