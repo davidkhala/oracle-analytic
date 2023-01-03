@@ -6,6 +6,10 @@ Points need to know more than Launch stack from OCI MarketPlace
 - DB Admin user
     - it cannot be `sys`, `sys as sysdba`
     - it should be granted as `SYSDBA` by `grant SYSDBA to <user>;`
+- schema creation
+    - **Database Schema Password**: A valid password must be specified. Password should be alpha numeric only and can contain the following special characters: $, # , _ .Password should not start with a number or a special character.
+    - **Database Schema Prefix**: A valid prefix can contain only alpha-numeric characters. It should not start with a number and should not contain any special characters.
+
 - Troubleshoot domain server
     - Articulate user `oracle` to satisfy /u01/app/oas-scripts/create_oas_domain.sh
     - `sudo passwd oracle`. By default it is nopassword
