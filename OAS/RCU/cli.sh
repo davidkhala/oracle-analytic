@@ -1,1 +1,1 @@
-/u01/app/Oracle/Middleware/Oracle_Home/oracle_common/bin/rcu
+/u01/app/Oracle/Middleware/Oracle_Home/oracle_common/bin/rcu -silent -validate
