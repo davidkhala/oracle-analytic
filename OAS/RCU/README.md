@@ -16,12 +16,6 @@ Oracle Analytics Server will install several schemas on the RCU Database and use
 # RCU DB
 - [DB Certification](https://docs.oracle.com/en/middleware/bi/analytics-server/administer-oas/certification-rcu-databases.html)
 - Autonomous DB is not certified as RCU DB
-## Sample: use Oracle Base DB in OCI as RCU DB
-1. Provision
-    - [Set Up an Oracle Cloud Database (VM DB or BM DB)](https://docs.oracle.com/en/middleware/bi/analytics-server/deploy-oas-cloud/deploy-oracle-analytics-server-oracle-cloud.html#GUID-C8C5D819-5EB5-4EE2-98EF-F6093E850B0E)
-    - The ODB must be deployed in the same region as Oracle Analytics Server
-    - DB connection string must be in format `<hostname or IP address>:<port>:<PDB_name>.<DB_domain>`
-    - Prepare an existing user with `SYSDBA` privileges for OAS Domain Configuration. You can reuse default user `sys`
-2. Please test database connection and database administrator credentials before deployment. 
+
 
 
