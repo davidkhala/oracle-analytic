@@ -1,7 +1,7 @@
 # Repository Creation Utility (RCU) 
 [Use RCU CLI](https://docs.oracle.com/en/middleware/fusion-middleware/12.2.1.4/rcuug/running-repository-creation-utility-command-line.html#GUID-0D3A2959-7CC8-4001-997E-718ADF04C5F2)
 
-Oracle Analytics Server in Marketplace will install several schemas on the RCU Database and uses them to store various product metadata.
+Oracle Analytics Server will install several schemas on the RCU Database and uses them to store various product metadata. Make sure there was no schema naming conflict before RCU create repository
 
 ```
 <YourSchemaPrefix>_BIPLATFORM -- Oracle Analytics
