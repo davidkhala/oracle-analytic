@@ -1,7 +1,9 @@
 start() {
     $Oracle_Home/domain/bin/startJetty.sh
 }
-
+cd-drivers(){
+    cd $Oracle_Home/domain/jettybase/thirdpartyDrivers/
+}
 stop() {
     $Oracle_Home/domain/bin/stopJetty.sh
 }
