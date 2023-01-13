@@ -1,6 +1,9 @@
 view-endpoint(){
     echo "URL: http://${host}:${hostPort:-8080}/obiee/config.jsp"
 }
+view-config(){
+    cat silentInstall.response
+}
 start() {
     $Oracle_Home/domain/bin/startJetty.sh
 }
