@@ -1,3 +1,6 @@
+view-endpoint(){
+    echo "URL: http://${host}:${hostPort:-8080}/obiee/config.jsp"
+}
 start() {
     $Oracle_Home/domain/bin/startJetty.sh
 }
