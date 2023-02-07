@@ -21,7 +21,9 @@ Docker run
 ```
 ./docker.sh run
 ```
-
+## Troubleshoot
+[JDBC connection](https://www.youtube.com/watch?v=nMYjRZh7N-U&list=PL6gBNP-Fr8KW7nBmA7V2MfPdw7dvoccn3&index=3) 
+- Data Gateway -> Menu (left side bar) -> Status -> Drill into Connection Request and refer to the vendor documentation 
 # License
 Downloading or using Remote Data Gateway indicates you have read the [Oracle Technology Network License Agreement
 ](https://www.oracle.com/downloads/licenses/distribution-license.html) carefully and accept the agreement.
